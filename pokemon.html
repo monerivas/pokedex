@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Pokedex Mone</title>
+  </head>
+  <body>
+    <h1>Pokedex</h1>
+    <div>
+      <input id="nombrePokemon" type="text" placeholder="Nombre">
+      <input id="colorPokemon" type="text" placeholder="Color">
+      <input id="puntosDeAtaque" type="text" placeholder="Puntos de ataque">
+      <button id="crearPokemon" type="button" onclick="crearPokemon();">Crear pokemon</button>
+      <br>
+
+      <p>
+        <h3>Batalla Pokemon!</h3>
+        <select id="eleccionPokemon">
+          <option selected="">Elige un pokemon</option>
+        </select>
+
+        <select id="eligePokemon2">
+          <option selected="">Elige un pokemon</option>
+        </select>
+
+        <button type="button">Pelear</button>
+      </p>
+      <br>
+
+      <p>
+        <h3>Resultado de la pelea</h3>
+        <span id="areaResultadoPelea"></span>
+      </p>
+
+    </div>
+    <script src="pokemon.js"></script>
+  </body>
+</html>
